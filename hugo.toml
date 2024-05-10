@@ -1,0 +1,57 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Logger'
+# disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
+
+[module]
+  [[module.imports]]
+  path = "github.com/nanxiaobei/hugo-paper"
+
+[params]
+  color = 'gray'                              # linen, wheat, gray, light
+
+  # header social icons
+  github = 'aintbe'
+  instagram = 'cosmicbroom'
+
+  # home page profile
+  avatar = 'aint.imsorry@gmail.com'                 # gravatar email or image url
+  name = '소리림'
+  bio = 'YOUR_BIO'
+
+  # misc
+#   disablePostNavigation = true              # disable post navigation
+#   monoDarkIcon = true                       # show monochrome dark mode icon
+#   gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+#   math = true                               # enable KaTeX math typesetting globally
+#   graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
+
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+
+[menu]
+  [[menu.main]]
+  identifier = 'about'
+  name = 'About'
+  url = '/about/'
+
+  [[menu.main]]
+  identifier = 'hey'
+  name = '일기장'
+  url = '/category/hey'
+
+#   # giscus
+# [params.giscus]
+#   repo = 'YOUR_GISCUS_REPO'                 # see https://giscus.app for more details
+#   repoId = 'YOUR_GISCUS_REPO_ID'
+#   category = 'YOUR__GISCUS_CATEGORY'
+#   categoryId = 'YOUR_GISCUS_CATEGORY_ID'
+#   mapping = 'pathname'
+#   theme = 'light'
+#   lang = 'zh-CN'
+
+[markup]
+  [markup.highlight]
+  style = 'onedark'
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Logger</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on Logger</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/about/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/test/</guid>
+      <description>가나다라마바사 우리 함꼐 테스트를 해요&#xA;이거 어때요 이렇게도 할래요 이럴 거예요 컨텐츠를 업데이트할 거예요. dsfs&#xA;뭐가 문제죠? 그렇다고 합니다.&#xA;이거 말고는 보통 쓸 일이 없죠! 아 이것도font change 있네요.&#xA;export type TooltipAttributeType = { targetData: Record&amp;lt;string, string | number&amp;gt;; className: string; color: string; fontColor: string; }; export type TooltipConfigsType = { primaryDimension: string[]; primaryMetric: string[]; secondary: string[]; }; </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/hey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/hey/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

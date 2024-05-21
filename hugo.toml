@@ -18,6 +18,9 @@ title = 'Logger'
   avatar = 'aint.imsorry@gmail.com'                 # gravatar email or image url
   name = '소리림'
   bio = 'YOUR_BIO'
+  
+  # commento settings
+  commento = 'https://commento.koreacentral.cloudapp.azure.com'
 
   # misc
 #   disablePostNavigation = true              # disable post navigation

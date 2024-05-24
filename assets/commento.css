@@ -1,0 +1,16 @@
+:where(.dark .commento-root) 
+:is(
+  .commento-card,
+  .commento-name,
+  .commento-body *,
+  #commento-textarea-root,
+  #commento-guest-details-input-root
+) {
+  background-color: var(--tw-prose-partial-bg) !important;
+  color: var(--custom-dark-text) !important;
+}
+
+:where(.dark) .commento-root
+  #commento-guest-details-input-root::placeholder {
+  color: #767676;
+}

@@ -58,8 +58,7 @@
   {{ end }}
 
   <!-- Comments with Commento -->
-  {{ if and site.Params.commento -}}
-  <h3>Comments</h3>
+  {{ if and site.Params.commento }}
   {{ partial "commento.html" . }}
   {{ end }}
 

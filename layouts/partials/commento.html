@@ -1,3 +1,11 @@
+{{ $css := resources.Get "commento.css" }}
+
+<h3>Comments</h3>
 <div id="commento"></div>
-<script defer src="{{ site.Params.commento }}/js/commento.js"></script>
+<!-- Disable websocket since the backend is using reverse proxy -->
+<script defer
+  src="{{ site.Params.commento }}/js/commento.js"
+  data-css-override="{{ $css.Permalink }}"
+  data-no-websockets="true" 
+></script>
 <noscript>Please enable JavaScript to load the comments.</noscript>

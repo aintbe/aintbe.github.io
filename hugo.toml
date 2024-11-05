@@ -7,14 +7,14 @@ title = 'Logger'
   path = "github.com/nanxiaobei/hugo-paper"
 
 [params]
-  color = 'gray'                              # linen, wheat, gray, light
+  color = 'gray' # linen, wheat, gray, light
 
   # header social icons
   github = 'aintbe'
   instagram = 'cosmicbroom'
 
   # home page profile
-  avatar = 'aint.imsorry@gmail.com'                 # gravatar email or image url
+  avatar = 'aint.imsorry@gmail.com' # gravatar email or image url
   name = '소리림'
   bio = '지구에 살고 있어요'
   
@@ -22,8 +22,8 @@ title = 'Logger'
   commento = 'https://comments.koreacentral.cloudapp.azure.com'
 
 [taxonomies]
-  tag = 'tags'
-  category = 'categories'
+  tag = 'tag'
+  category = 'category'
 
 [menu]
   [[menu.main]]
@@ -32,9 +32,9 @@ title = 'Logger'
   url = '/about/'
 
   [[menu.main]]
-  identifier = 'diary'
+  identifier = 'journal'
   name = '일기장'
-  url = '/diary/'
+  url = '/journal/'
 
 [markup]
   [markup.highlight]
